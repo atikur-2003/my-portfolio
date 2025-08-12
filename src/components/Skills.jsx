@@ -11,7 +11,7 @@ import mongodbLogo from "../assets/mongodb.png";
 
 const Skills = () => {
   return (
-    <div className="text-center my-20">
+    <div id="skills" className="text-center my-20">
       <h1 className="text-3xl text-green-500 font-bold mb-7">Skills and Technologies</h1>
       <div className="max-w-4xl mx-auto px-3 lg:px-0">
         <Marquee>

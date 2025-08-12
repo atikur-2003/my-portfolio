@@ -3,12 +3,13 @@ import { CiMenuFries } from "react-icons/ci";
 
 const Navbar = () => {
 
-    const navLinks = <>
-        <li>Home</li>
-        <li>About</li>
-        <li>Education</li>
-        <li>Projects</li>
-        <li>Contact</li>
+    const navanks = <>
+        <a>Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
     </>
 
   return (
@@ -22,14 +23,14 @@ const Navbar = () => {
             tabIndex={0}
             className="menu text-green-500 menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
-            {navLinks}
+            {navanks}
           </ul>
         </div>
         <a className="text-2xl text-green-500 font-bold">Atikur</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu text-green-500 space-x-4 cursor-pointer menu-horizontal px-1">
-          {navLinks}
+          {navanks}
         </ul>
       </div>
       <div className="navbar-end">

@@ -6,7 +6,7 @@ import { FaCode, FaRegEye } from "react-icons/fa6";
 
 const Projects = () => {
   return (
-    <div className="my-20 px-3 md:px-8 lg:px-16">
+    <div id="projects" className="my-20 px-3 md:px-8 lg:px-16">
       <div className="text-center mb-10">
         <h1 className="text-3xl text-green-500 font-bold mb-4">My Projects</h1>
         <p className="text-base text-gray-300">
